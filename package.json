@@ -1,0 +1,23 @@
+{
+  "name": "comp-2068-thurs-javascript",
+  "version": "1.0.0",
+  "description": "A blogging platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliver38102/comp-2068-thurs-javascript.git"
+  },
+  "author": "Owen Tanner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliver38102/comp-2068-thurs-javascript/issues"
+  },
+  "homepage": "https://github.com/oliver38102/comp-2068-thurs-javascript#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
