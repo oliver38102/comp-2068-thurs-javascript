@@ -1,5 +1,5 @@
 {
-  "name": "comp-2068-thurs-javascript",
+  "name": "comp2068",
   "version": "1.0.0",
   "description": "A blogging platform",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oliver38102/comp-2068-thurs-javascript.git"
+    "url": "git+https://github.com/zzzron/comp2068.git"
   },
-  "author": "Owen Tanner",
+  "author": "Ron Volis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oliver38102/comp-2068-thurs-javascript/issues"
+    "url": "https://github.com/zzzron/comp2068/issues"
   },
-  "homepage": "https://github.com/oliver38102/comp-2068-thurs-javascript#readme",
+  "homepage": "https://github.com/zzzron/comp2068#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
     "express": "^4.16.4",

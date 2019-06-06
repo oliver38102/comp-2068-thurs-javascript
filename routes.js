@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
 
-//Import our Page routes
-const pageRoutes = require('./routes/pages')
+// Import page routes
+const pageRoutes = require('./routes/pages');
 
-//register our page routes with app
-app.use('/', pageRoutes)
+// Register Page Routes with our app
+app.use('/', pageRoutes);
 
-//export changes
+// Export changes
 module.exports = app;

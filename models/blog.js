@@ -1,13 +1,12 @@
 const mongoose = require('mongoose');
 
-// our schema
-
+// Our schema
 const BlogSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true
     },
-    content: {
+    cotent: {
         type: String,
         required: false
     },
@@ -18,8 +17,6 @@ const BlogSchema = new mongoose.Schema({
     }
 }, {
     timestamps: true
-}
-);
+});
 
-module.exports = mongoose.model('Blog',
-BlogSchema)
+module.exports = mongoose.model('Blog', BlogSchema);

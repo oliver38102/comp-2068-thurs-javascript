@@ -1,2 +1,2 @@
-# comp-2068-thurs-javascript
-A blogging platform 
+# comp2068
+A blogging platform
