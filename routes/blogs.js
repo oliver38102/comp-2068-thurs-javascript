@@ -1,9 +1,9 @@
-const router = require('express').router();
+const router = require('express').Router();
 
 const BlogsController = require('../controllers/blogsController');
 
+// Begin routes
 
-//begin routes
 router.get('/', BlogsController.index);
 router.get('/new', BlogsController.new);
 router.get('/:id', BlogsController.show);
@@ -12,10 +12,6 @@ router.post('/', BlogsController.create);
 router.post('/:id', BlogsController.update);
 router.post('/:id/delete', BlogsController.destroy);
 
-
-//end routes
+// End routes
 
 module.exports = router;
-
-
-

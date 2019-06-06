@@ -1,5 +1,5 @@
 {
-  "name": "comp2068",
+  "name": "comp-2068-thursday",
   "version": "1.0.0",
   "description": "A blogging platform",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zzzron/comp2068.git"
+    "url": "git+https://github.com/gcsmckinnon/comp-2068-thursday.git"
   },
-  "author": "Ron Volis",
+  "author": "Shaun McKinnon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zzzron/comp2068/issues"
+    "url": "https://github.com/gcsmckinnon/comp-2068-thursday/issues"
   },
-  "homepage": "https://github.com/zzzron/comp2068#readme",
+  "homepage": "https://github.com/gcsmckinnon/comp-2068-thursday#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
